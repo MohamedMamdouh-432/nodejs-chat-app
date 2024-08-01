@@ -1,0 +1,33 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Nodejs Chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedMamdouh-432/nodejs-chat-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chat",
+    "express"
+  ],
+  "author": "Mohamed Mamdouh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedMamdouh-432/nodejs-chat-app/issues"
+  },
+  "homepage": "https://github.com/MohamedMamdouh-432/nodejs-chat-app#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
